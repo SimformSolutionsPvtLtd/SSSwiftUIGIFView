@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SSSwiftUIGIFView_Example' do
+  pod 'SSSwiftUIGIFView', :path => '../'
+
+  target 'SSSwiftUIGIFView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
