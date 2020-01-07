@@ -32,6 +32,6 @@ Pod::Spec.new do |s|
     "ios": "13.0"
   }
 
-  s.source_files = 'SSSwiftUIGIFView/Classes/**/*.swift'
+  s.source_files = 'Source/**/*.swift'
 
 end
