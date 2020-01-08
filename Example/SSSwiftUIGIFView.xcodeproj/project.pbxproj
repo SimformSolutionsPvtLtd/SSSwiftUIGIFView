@@ -14,7 +14,7 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7390DBC723C4A0560045F99C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7390DBC623C4A0560045F99C /* SceneDelegate.swift */; };
 		7390DBC923C4A0850045F99C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7390DBC823C4A0850045F99C /* ContentView.swift */; };
-		7390DBCB23C4A1BC0045F99C /* example.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7390DBCA23C4A1BC0045F99C /* example.gif */; };
+		8CA1786823C637A4003A0E0F /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 8CA1786723C637A4003A0E0F /* simformsolutions.gif */; };
 		A860C8426C5AD0F7645978F8 /* Pods_SSSwiftUIGIFView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38479CEB9FFAAA93855BB06E /* Pods_SSSwiftUIGIFView_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +44,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7390DBC623C4A0560045F99C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7390DBC823C4A0850045F99C /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7390DBCA23C4A1BC0045F99C /* example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example.gif; sourceTree = "<group>"; };
+		8CA1786723C637A4003A0E0F /* simformsolutions.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simformsolutions.gif; sourceTree = "<group>"; };
 		AD3E35097FD768F130647047 /* Pods-SSSwiftUIGIFView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFView_Tests/Pods-SSSwiftUIGIFView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AD8EEADAF1CB3AD431C8DCFA /* Pods_SSSwiftUIGIFView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD2C4B95A0F8FB6E67ADE7D8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		7390DBCC23C4A1C00045F99C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7390DBCA23C4A1BC0045F99C /* example.gif */,
+				8CA1786723C637A4003A0E0F /* simformsolutions.gif */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -257,7 +257,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7390DBCB23C4A1BC0045F99C /* example.gif in Resources */,
+				8CA1786823C637A4003A0E0F /* simformsolutions.gif in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);

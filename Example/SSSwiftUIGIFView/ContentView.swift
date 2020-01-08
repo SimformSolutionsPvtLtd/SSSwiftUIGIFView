@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  SSSwiftUIGIFView
 //
-//  Created by Ketan Chopda on 07/01/20.
+//  Created by Simform Solutions on 07/01/20.
 //  Copyright © 2020 Simform. All rights reserved.
 //
 
@@ -11,7 +11,7 @@ import SSSwiftUIGIFView
 
 struct ContentView: View {
     var body: some View {
-        GIFView(gifName: "example")
+        SwiftUIGIFPlayerView(gifName: "simformsolutions")
     }
 }
 
