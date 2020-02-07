@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SSSwiftUIGIFView'
-  s.version          = '0.1.2'
+  s.version          = '1.0.0'
   s.summary          = 'SSSwiftUIGIFView is a custom controller which helps to load GIF in SwiftUI.'
 
 # This description is used to generate tags and improve search results.
