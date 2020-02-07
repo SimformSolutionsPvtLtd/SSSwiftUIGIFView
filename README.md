@@ -1,5 +1,6 @@
 # SSSwiftUIGIFView
 
+SSSwiftUIGIFView is a custom controller which helps to load GIF in SwiftUI.
 
 [![Version](https://img.shields.io/cocoapods/v/SSSwiftUIGIFView.svg?style=flat)](https://cocoapods.org/pods/SSSwiftUIGIFView)
 [![License](https://img.shields.io/cocoapods/l/SSSwiftUIGIFView.svg?style=flat)](https://cocoapods.org/pods/SSSwiftUIGIFView)
