@@ -12,6 +12,6 @@ let package = Package(
         .library(name: "SSSwiftUIGIFView", type: .dynamic, targets: ["SSSwiftUIGIFView"]),
     ],
     targets: [
-        .target(name: "SSSwiftUIGIFView", dependencies: []),
+        .target(name: "SSSwiftUIGIFView", path: "Source"),
     ]
 )
