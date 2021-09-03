@@ -19,6 +19,13 @@ class GIFPlayerView: UIView {
         gifImageView.contentMode = .scaleAspectFit
     }
     
+    convenience init(gifURL: URL) {
+        self.init()
+        let gif = UIImage.gif(url: gifURL)
+        gifImageView.image = gif
+        gifImageView.contentMode = .scaleAspectFit
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -71,15 +78,9 @@ extension UIImage {
         return UIImage.animatedImageWithSource(source)
     }
     
-    public class func gif(url: String) -> UIImage? {
-        // Validate URL
-        guard let bundleURL = URL(string: url) else {
-            print("SwiftGif: This image named \"\(url)\" does not exist")
-            return nil
-        }
-        
+    public class func gif(url: URL) -> UIImage? {
         // Validate data
-        guard let imageData = try? Data(contentsOf: bundleURL) else {
+        guard let imageData = try? Data(contentsOf: url) else {
             print("SwiftGif: Cannot turn image named \"\(url)\" into NSData")
             return nil
         }

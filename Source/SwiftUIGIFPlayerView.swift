@@ -9,10 +9,15 @@ import SwiftUI
 
 public struct SwiftUIGIFPlayerView: UIViewRepresentable {
     
-    private var gifName: String
+    private var gifName: String?
+    private var gifURL: URL?
     
     public init(gifName: String) {
         self.gifName = gifName
+    }
+    
+    public init(gifURL: URL) {
+        self.gifURL = gifURL
     }
     
     public func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<SwiftUIGIFPlayerView>) {
@@ -20,7 +25,10 @@ public struct SwiftUIGIFPlayerView: UIViewRepresentable {
     }
     
     public func makeUIView(context: Context) -> UIView {
-        return GIFPlayerView(gifName: gifName)
+        if let gifURL = gifURL {
+            return GIFPlayerView(gifURL: gifURL)
+        }
+        return GIFPlayerView(gifName: gifName!)
     }
     
 }
