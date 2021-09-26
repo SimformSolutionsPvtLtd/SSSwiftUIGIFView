@@ -9,7 +9,7 @@ let package = Package(
         .iOS(.v13), .tvOS(.v13)
     ],
     products: [
-        .library(name: "SSSwiftUIGIFView", type: .dynamic, targets: ["SSSwiftUIGIFView"]),
+        .library(name: "SSSwiftUIGIFView", targets: ["SSSwiftUIGIFView"]),
     ],
     targets: [
         .target(name: "SSSwiftUIGIFView", path: "Source"),
