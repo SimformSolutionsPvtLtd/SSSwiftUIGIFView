@@ -10,8 +10,25 @@ import SwiftUI
 import SSSwiftUIGIFView
 
 struct ContentView: View {
+        
     var body: some View {
-        SwiftUIGIFPlayerView(gifName: "simformsolutions")
+        VStack() {
+            
+            Text("Gif loaded from local machine")
+                .bold()
+            SwiftUIGIFPlayerView(gifName: "simformsolutions")
+                .frame(width: 300, height: 300)
+            
+            Text("Gif loaded from URL")
+                .bold()
+            if let gifURL = URL(string: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif") {
+                SwiftUIGIFPlayerView(gifURL: gifURL)
+                    .frame(width: 300, height: 300)
+            } else {
+                Text("Invalid URL")
+            }
+
+        }
     }
 }
 
