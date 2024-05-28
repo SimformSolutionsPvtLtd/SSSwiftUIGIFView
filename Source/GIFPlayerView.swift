@@ -21,6 +21,22 @@ class GIFPlayerView: UIView {
     
     convenience init(gifURL: URL) {
         self.init()
+        updateGIFURL(gifURL: gifURL)
+    }
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    func updateGIF(gifName: String) {
+        gifImageView.image = UIImage.gif(name: gifName)
+    }
+    
+    func updateGIFURL(gifURL: URL) {
         UIImage.gif(url: gifURL) { gifImage in
             DispatchQueue.main.async {
                 if let gif = gifImage {
@@ -31,14 +47,6 @@ class GIFPlayerView: UIView {
                 }
             }
         }
-    }
-    
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
     }
     
     override func layoutSubviews() {
