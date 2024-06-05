@@ -16,18 +16,43 @@ struct ContentView: View {
             
             Text("Gif loaded from local machine")
                 .bold()
-            SwiftUIGIFPlayerView(gifName: "simformsolutions")
-                .frame(width: 300, height: 300)
+            
+            SwiftUIGIFPlayerView(name: "simformsolutions") {
+                VStack {
+                    Image(systemName: "photo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 100, height: 100)
+                        .foregroundColor(.gray)
+                    Text("Loading GIF...")
+                        .foregroundColor(.gray)
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color(UIColor.systemBackground))
+            }
+            .frame(width: 300, height: 300)
+            
             
             Text("Gif loaded from URL")
                 .bold()
-            if let gifURL = URL(string: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif") {
-                SwiftUIGIFPlayerView(gifURL: gifURL)
+            if let gifURL = URL(string: "https://media.giphy.com/media/5tkEiBCurffluctzB7/giphy.gif") {
+                SwiftUIGIFPlayerView(url: gifURL, isShowProgressView: true) {
+                    VStack {
+                        Image(systemName: "photo")
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 100, height: 100)
+                            .foregroundColor(.gray)
+                        Text("Loading GIF...")
+                            .foregroundColor(.gray)
+                    }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .background(Color(UIColor.systemBackground))
+                }
                     .frame(width: 300, height: 300)
             } else {
                 Text("Invalid URL")
             }
-
         }
     }
 }

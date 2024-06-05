@@ -6,36 +6,53 @@
 //
 
 import SwiftUI
+import WebKit
 
-public struct SwiftUIGIFPlayerView: UIViewRepresentable {
+public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
     
-    private var gifName: String?
-    private var gifURL: URL?
+    @StateObject var loader = GIFImageLoader()
+    var url: URL?
+    var name: String?
+    var isShowProgressView: Bool
+    var placeholderView: Placeholder?
     
-    public init(gifName: String) {
-        self.gifName = gifName
-    }
+    public init(url: URL? = nil, name: String? = nil, isShowProgressView: Bool = false, @ViewBuilder placeholderView: () -> Placeholder) {
+           self.url = url
+           self.name = name
+           self.isShowProgressView = isShowProgressView
+            self.placeholderView = placeholderView()
+       }
     
-    public init(gifURL: URL) {
-        self.gifURL = gifURL
-    }
-    
-    public func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<SwiftUIGIFPlayerView>) {
-        guard let gifPlayerView = uiView as? GIFPlayerView else { return }
-        if let gifName = gifName {
-            gifPlayerView.updateGIF(gifName: gifName)
-        } else if let gifURL = gifURL {
-            gifPlayerView.updateGIFURL(gifURL: gifURL)
+    public var body: some View {
+        Group {
+            if let data = loader.data {
+                GIFPlayerView(data: data)
+            } else {
+                if isShowProgressView {
+                    ProgressView() // Placeholder while loading
+                } else {
+                    placeholderView// Custom placeholder view
+                }
+            }
         }
+        .onAppear {
+            self.loadGIF()
+        }
+        .onChange(of: name) { newValue in
+            self.loadGIF()
+        }
+        
+        .onChange(of: url) { newValue in
+            self.loadGIF()
+        }
+        
     }
     
-    public func makeUIView(context: Context) -> UIView {
-        if let gifURL = gifURL {
-            return GIFPlayerView(gifURL: gifURL)
-        } else if let gifName = gifName {
-            return GIFPlayerView(gifName: gifName)
-        } else {
-            return UIView()
+    public func loadGIF() {
+        if let url = url {
+            loader.load(url: url)
+        } else if let name = name, let url = Bundle.main.url(forResource: name, withExtension: "gif") {
+            loader.load(url: url)
         }
     }
     
