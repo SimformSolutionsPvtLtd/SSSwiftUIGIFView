@@ -1,5 +1,5 @@
 //
-//  GIFImageLoaderViewModel.swift
+//  GIFImageViewModel.swift
 //  SSSwiftUIGIFView
 //
 //  Created by Yagnik Bavishi on 05/06/24.
@@ -8,7 +8,7 @@
 import Foundation
 import Combine
 
-class GIFImageLoaderViewModel: ObservableObject {
+class GIFImageViewModel: ObservableObject {
     
     // MARK: - Variables
     @Published var data: Data? = nil
@@ -51,6 +51,15 @@ class GIFImageLoaderViewModel: ObservableObject {
                     self.data = data
                 }
             }
+    }
+    
+    /// Loads a GIF from a local file name.
+    /// 
+    /// - Parameter name: The name of the GIF file located in the app's bundle. If the name does not end with ".gif", the extension is automatically added.
+    func load(name: String) {
+        if let url = Bundle.main.url(forResource: name, withExtension: name.hasSuffix(".gif") ? "" : ".gif") {
+            load(url: url)
+        }
     }
 
     deinit {

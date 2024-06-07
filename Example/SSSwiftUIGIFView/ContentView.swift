@@ -21,7 +21,7 @@ struct ContentView: View {
             Text("Gif loaded from URL")
                 .bold()
             if let gifURL = URL(string: "https://upload.wikimedia.org/wikipedia/commons/2/2c/Rotating_earth_%28large%29.gif") {
-                SwiftUIGIFPlayerView(gifURL: gifURL, isShowProgressView: false) {
+                SwiftUIGIFPlayerView(gifURL: gifURL) {
                     customPlaceHolderView
                 }
                 .frame(width: 300, height: 300)

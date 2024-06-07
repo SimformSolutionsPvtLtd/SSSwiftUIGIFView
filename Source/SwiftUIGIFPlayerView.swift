@@ -11,10 +11,10 @@ import WebKit
 public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
     
     // MARK: - Variables
-    @StateObject private var gifImageLoaderViewModel = GIFImageLoaderViewModel()
+    @StateObject private var gifImageViewModel = GIFImageViewModel()
     private var gifURL: URL?
     private var gifName: String?
-    private var isShowProgressView: Bool
+    private var isShowProgressView: Bool? = false
     private var placeholderView: (() -> Placeholder)?
     
     /// You can also specify whether to show a progress view while the GIF is loading and provide a custom placeholder view.
@@ -26,7 +26,7 @@ public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
     ///   - placeholderView: A closure that returns a custom placeholder view to be displayed while the GIF is loading. This parameter is required if `isShowProgressView` is `false`.
     public init(gifURL: URL? = nil,
                 gifName: String? = nil,
-                isShowProgressView: Bool,
+                isShowProgressView: Bool? = false,
                 @ViewBuilder placeholderView: @escaping () -> Placeholder) {
         self.gifURL = gifURL
         self.gifName = gifName
@@ -42,7 +42,7 @@ public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
     ///   - isShowProgressView: A Boolean value indicating whether to show a progress view while the GIF is loading.
     public init(gifURL: URL? = nil,
                 gifName: String? = nil,
-                isShowProgressView: Bool) where Placeholder == EmptyView {
+                isShowProgressView: Bool? = false) where Placeholder == EmptyView {
         self.gifURL = gifURL
         self.gifName = gifName
         self.isShowProgressView = isShowProgressView
@@ -51,10 +51,10 @@ public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
     
     public var body: some View {
         ZStack {
-            if let gifData = gifImageLoaderViewModel.data {
+            if let gifData = gifImageViewModel.data {
                 GIFPlayerView(gifData: gifData)
             } else {
-                if isShowProgressView {
+                if let isShowProgressView = isShowProgressView, isShowProgressView {
                     ProgressView()
                 } else {
                     if let placeholderView = placeholderView {
@@ -68,24 +68,23 @@ public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
         .onAppear {
             loadGIF()
         }
-        .onChange(of: gifName) { _ in
-            loadGIF()
+        .onChange(of: gifURL) { newURL in
+            loadGIF(url: newURL, name: gifName)
         }
-        .onChange(of: gifURL) { _ in
-            loadGIF()
+        .onChange(of: gifName) { newName in
+            loadGIF(url: gifURL, name: newName)
         }
     }
     
     /// Loads a GIF from either a specified URL or a local file name.
-    ///
-    /// This function attempts to load a GIF image using the following logic:
-    /// 1. If `gifURL` is provided, it uses this URL to load the GIF.
-    /// 2. If `gifURL` is `nil` and `gifName` is provided, it attempts to find a file with the given name in the main bundle and load the GIF from this local file.
-    public func loadGIF() {
-        if let gifURL = gifURL {
-            gifImageLoaderViewModel.load(url: gifURL)
-        } else if let name = gifName, let url = Bundle.main.url(forResource: name, withExtension: "gif") {
-            gifImageLoaderViewModel.load(url: url)
+    /// - Parameters:
+    ///   - url: An optional URL of the GIF to be loaded. If provided, this URL will be used to load the GIF.
+    ///   - name: An optional name of the GIF file located in the app's bundle. If provided and `url` is `nil`, this name will be used to load the GIF.
+    public func loadGIF(url: URL? = nil, name: String? = nil) {
+        if let gifURL = url ?? self.gifURL {
+            gifImageViewModel.load(url: gifURL)
+        } else if let gifName = name ?? self.gifName {
+            gifImageViewModel.load(name: gifName)
         }
     }
     
