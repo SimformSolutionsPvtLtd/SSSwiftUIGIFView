@@ -21,7 +21,12 @@ public struct SwiftUIGIFPlayerView: UIViewRepresentable {
     }
     
     public func updateUIView(_ uiView: UIView, context: UIViewRepresentableContext<SwiftUIGIFPlayerView>) {
-        
+        guard let gifPlayerView = uiView as? GIFPlayerView else { return }
+        if let gifName = gifName {
+            gifPlayerView.updateGIF(gifName: gifName)
+        } else if let gifURL = gifURL {
+            gifPlayerView.updateGIFURL(gifURL: gifURL)
+        }
     }
     
     public func makeUIView(context: Context) -> UIView {
