@@ -19,6 +19,20 @@ class GIFPlayerView: UIView {
         gifImageView.contentMode = .scaleAspectFit
     }
     
+    convenience init(gifURL: URL) {
+        self.init()
+        UIImage.gif(url: gifURL) { gifImage in
+            DispatchQueue.main.async {
+                if let gif = gifImage {
+                    self.gifImageView.image = gif
+                    self.gifImageView.contentMode = .scaleAspectFit
+                } else {
+                    print("Failed to load GIF from URL: \(gifURL)")
+                }
+            }
+        }
+    }
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -71,20 +85,37 @@ extension UIImage {
         return UIImage.animatedImageWithSource(source)
     }
     
-    public class func gif(url: String) -> UIImage? {
-        // Validate URL
-        guard let bundleURL = URL(string: url) else {
-            print("SwiftGif: This image named \"\(url)\" does not exist")
-            return nil
+
+    public class func gif(url: URL, completion: @escaping (UIImage?) -> Void) {
+        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+            // Check for errors
+            guard error == nil else {
+                print("SwiftGif: Error fetching image from URL \(url):", error!)
+                completion(nil)
+                return
+            }
+
+            // Check for valid response and data
+            guard let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200,
+                  let data = data else {
+                print("SwiftGif: Invalid response or no data received from URL \(url)")
+                completion(nil)
+                return
+            }
+
+            // Convert data to UIImage
+            guard let image = gif(data: data) else {
+                print("SwiftGif: Cannot create UIImage from data")
+                completion(nil)
+                return
+            }
+
+            // Completion handler with UIImage
+            completion(image)
         }
-        
-        // Validate data
-        guard let imageData = try? Data(contentsOf: bundleURL) else {
-            print("SwiftGif: Cannot turn image named \"\(url)\" into NSData")
-            return nil
-        }
-        
-        return gif(data: imageData)
+
+        // Start the URLSession task
+        task.resume()
     }
     
     public class func gif(name: String) -> UIImage? {
