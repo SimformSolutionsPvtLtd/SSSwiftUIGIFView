@@ -29,4 +29,9 @@ class GIFCache {
     func setData(_ data: NSData, for url: NSURL) {
         cache.setObject(data, forKey: url)
     }
+    
+    /// Used for clearing all cache data which stored in cache object
+    func clearCache() {
+        cache.removeAllObjects()
+    }
 }
