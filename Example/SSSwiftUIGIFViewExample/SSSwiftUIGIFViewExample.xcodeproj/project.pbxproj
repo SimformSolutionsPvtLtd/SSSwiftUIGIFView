@@ -1,0 +1,928 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		124695E62C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */; };
+		124695E82C1343F500AAA0B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E72C1343F500AAA0B8 /* ContentView.swift */; };
+		124695EA2C1343F700AAA0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124695E92C1343F700AAA0B8 /* Assets.xcassets */; };
+		124695ED2C1343F700AAA0B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124695EC2C1343F700AAA0B8 /* Preview Assets.xcassets */; };
+		124695F72C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695F62C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.swift */; };
+		124696012C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124696002C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.swift */; };
+		124696032C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124696022C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITestsLaunchTests.swift */; };
+		124696112C13442600AAA0B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E72C1343F500AAA0B8 /* ContentView.swift */; };
+		124696122C13442600AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */; };
+		124696152C13442600AAA0B8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124695EC2C1343F700AAA0B8 /* Preview Assets.xcassets */; };
+		124696162C13442600AAA0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124695E92C1343F700AAA0B8 /* Assets.xcassets */; };
+		124696532C136E9700AAA0B8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124696522C136E9700AAA0B8 /* SplashScreenView.swift */; };
+		124696542C136E9700AAA0B8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124696522C136E9700AAA0B8 /* SplashScreenView.swift */; };
+		124696562C136F4500AAA0B8 /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 124696552C136F4500AAA0B8 /* simformsolutions.gif */; };
+		124696572C136F4500AAA0B8 /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 124696552C136F4500AAA0B8 /* simformsolutions.gif */; };
+		7C281D2A6F72EBD530C08E14 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B06B4EA4C4771ECA2A4375 /* libPods-SSSwiftUIGIFViewExampleMacOS.a */; };
+		A7F6D4CA072CA8E41D5ECABD /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC64E2DC6B41819B52B8F2 /* Pods_SSSwiftUIGIFViewExample.framework */; };
+		C97928FB6531DCB55ECC4C17 /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70E627C32DBCB99C57A2A8C /* Pods_SSSwiftUIGIFViewExampleTests.framework */; };
+		FD56F62B7249DE19A2E0DEDF /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49987652F4D8396F2B5618AB /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		124695F32C1343F700AAA0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124695DA2C1343F500AAA0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124695E12C1343F500AAA0B8;
+			remoteInfo = SSSwiftUIGIFViewExample;
+		};
+		124695FD2C1343F700AAA0B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 124695DA2C1343F500AAA0B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 124695E12C1343F500AAA0B8;
+			remoteInfo = SSSwiftUIGIFViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08DC64E2DC6B41819B52B8F2 /* Pods_SSSwiftUIGIFViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		09316F2DCBDD5E8DDA7670C3 /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleMacOS/Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		124695E22C1343F500AAA0B8 /* SSSwiftUIGIFViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSwiftUIGIFViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSwiftUIGIFViewExampleApp.swift; sourceTree = "<group>"; };
+		124695E72C1343F500AAA0B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		124695E92C1343F700AAA0B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		124695EC2C1343F700AAA0B8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		124695F22C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSSwiftUIGIFViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		124695F62C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSwiftUIGIFViewExampleTests.swift; sourceTree = "<group>"; };
+		124695FC2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SSSwiftUIGIFViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		124696002C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSwiftUIGIFViewExampleUITests.swift; sourceTree = "<group>"; };
+		124696022C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSwiftUIGIFViewExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1246961A2C13442600AAA0B8 /* SSSwiftUIGIFViewExampleMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSwiftUIGIFViewExampleMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		124696522C136E9700AAA0B8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		124696552C136F4500AAA0B8 /* simformsolutions.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simformsolutions.gif; sourceTree = "<group>"; };
+		18AF2A19B00B5E04AAB686D5 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		425A89AF90B78A43825398FD /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		49987652F4D8396F2B5618AB /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F12FE45137E504B477BF8B5 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5696615A04D7B8F8ED9E36EA /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleMacOS/Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig"; sourceTree = "<group>"; };
+		833612CAF379644CD60EC1FE /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B47A57702FA462446D9ACAD0 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B06B4EA4C4771ECA2A4375 /* libPods-SSSwiftUIGIFViewExampleMacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSSwiftUIGIFViewExampleMacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D70E627C32DBCB99C57A2A8C /* Pods_SSSwiftUIGIFViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8DDF0D15FCABDBD72D35E5B /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		124695DF2C1343F500AAA0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F6D4CA072CA8E41D5ECABD /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124695EF2C1343F700AAA0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C97928FB6531DCB55ECC4C17 /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124695F92C1343F700AAA0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD56F62B7249DE19A2E0DEDF /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124696132C13442600AAA0B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C281D2A6F72EBD530C08E14 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		124695D92C1343F500AAA0B8 = {
+			isa = PBXGroup;
+			children = (
+				124695E42C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */,
+				124695F52C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests */,
+				124695FF2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests */,
+				124695E32C1343F500AAA0B8 /* Products */,
+				7929A1DF6188C593E1AAB0AB /* Pods */,
+				C9C7459E77F46B10242A92AD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		124695E32C1343F500AAA0B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				124695E22C1343F500AAA0B8 /* SSSwiftUIGIFViewExample.app */,
+				124695F22C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.xctest */,
+				124695FC2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.xctest */,
+				1246961A2C13442600AAA0B8 /* SSSwiftUIGIFViewExampleMacOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		124695E42C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */,
+				124695E72C1343F500AAA0B8 /* ContentView.swift */,
+				124696522C136E9700AAA0B8 /* SplashScreenView.swift */,
+				124696552C136F4500AAA0B8 /* simformsolutions.gif */,
+				124695E92C1343F700AAA0B8 /* Assets.xcassets */,
+				124695EB2C1343F700AAA0B8 /* Preview Content */,
+			);
+			path = SSSwiftUIGIFViewExample;
+			sourceTree = "<group>";
+		};
+		124695EB2C1343F700AAA0B8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				124695EC2C1343F700AAA0B8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		124695F52C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				124695F62C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.swift */,
+			);
+			path = SSSwiftUIGIFViewExampleTests;
+			sourceTree = "<group>";
+		};
+		124695FF2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				124696002C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.swift */,
+				124696022C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITestsLaunchTests.swift */,
+			);
+			path = SSSwiftUIGIFViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		7929A1DF6188C593E1AAB0AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				425A89AF90B78A43825398FD /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */,
+				D8DDF0D15FCABDBD72D35E5B /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */,
+				4F12FE45137E504B477BF8B5 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */,
+				833612CAF379644CD60EC1FE /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */,
+				B47A57702FA462446D9ACAD0 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */,
+				18AF2A19B00B5E04AAB686D5 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */,
+				09316F2DCBDD5E8DDA7670C3 /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */,
+				5696615A04D7B8F8ED9E36EA /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C9C7459E77F46B10242A92AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08DC64E2DC6B41819B52B8F2 /* Pods_SSSwiftUIGIFViewExample.framework */,
+				49987652F4D8396F2B5618AB /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */,
+				D70E627C32DBCB99C57A2A8C /* Pods_SSSwiftUIGIFViewExampleTests.framework */,
+				C3B06B4EA4C4771ECA2A4375 /* libPods-SSSwiftUIGIFViewExampleMacOS.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		124695E12C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124696062C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExample" */;
+			buildPhases = (
+				C45602EF055345D66A28B26B /* [CP] Check Pods Manifest.lock */,
+				124695DE2C1343F500AAA0B8 /* Sources */,
+				124695DF2C1343F500AAA0B8 /* Frameworks */,
+				124695E02C1343F500AAA0B8 /* Resources */,
+				28336BD4E93113C2313B038A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSwiftUIGIFViewExample;
+			productName = SSSwiftUIGIFViewExample;
+			productReference = 124695E22C1343F500AAA0B8 /* SSSwiftUIGIFViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		124695F12C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124696092C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleTests" */;
+			buildPhases = (
+				D255700739A96207726CE914 /* [CP] Check Pods Manifest.lock */,
+				124695EE2C1343F700AAA0B8 /* Sources */,
+				124695EF2C1343F700AAA0B8 /* Frameworks */,
+				124695F02C1343F700AAA0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124695F42C1343F700AAA0B8 /* PBXTargetDependency */,
+			);
+			name = SSSwiftUIGIFViewExampleTests;
+			productName = SSSwiftUIGIFViewExampleTests;
+			productReference = 124695F22C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		124695FB2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1246960C2C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleUITests" */;
+			buildPhases = (
+				1451AB7A5B8DFFDA93FDCE7D /* [CP] Check Pods Manifest.lock */,
+				124695F82C1343F700AAA0B8 /* Sources */,
+				124695F92C1343F700AAA0B8 /* Frameworks */,
+				124695FA2C1343F700AAA0B8 /* Resources */,
+				68E4F6D973C0F691E95ADD6E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				124695FE2C1343F700AAA0B8 /* PBXTargetDependency */,
+			);
+			name = SSSwiftUIGIFViewExampleUITests;
+			productName = SSSwiftUIGIFViewExampleUITests;
+			productReference = 124695FC2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1246960F2C13442600AAA0B8 /* SSSwiftUIGIFViewExampleMacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 124696172C13442600AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleMacOS" */;
+			buildPhases = (
+				D42300AA6991D52A7EAF71EC /* [CP] Check Pods Manifest.lock */,
+				124696102C13442600AAA0B8 /* Sources */,
+				124696132C13442600AAA0B8 /* Frameworks */,
+				124696142C13442600AAA0B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSSwiftUIGIFViewExampleMacOS;
+			productName = SSSwiftUIGIFViewExample;
+			productReference = 1246961A2C13442600AAA0B8 /* SSSwiftUIGIFViewExampleMacOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		124695DA2C1343F500AAA0B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					124695E12C1343F500AAA0B8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					124695F12C1343F700AAA0B8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 124695E12C1343F500AAA0B8;
+					};
+					124695FB2C1343F700AAA0B8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 124695E12C1343F500AAA0B8;
+					};
+				};
+			};
+			buildConfigurationList = 124695DD2C1343F500AAA0B8 /* Build configuration list for PBXProject "SSSwiftUIGIFViewExample" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 124695D92C1343F500AAA0B8;
+			productRefGroup = 124695E32C1343F500AAA0B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				124695E12C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */,
+				124695F12C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests */,
+				124695FB2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests */,
+				1246960F2C13442600AAA0B8 /* SSSwiftUIGIFViewExampleMacOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		124695E02C1343F500AAA0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124695ED2C1343F700AAA0B8 /* Preview Assets.xcassets in Resources */,
+				124695EA2C1343F700AAA0B8 /* Assets.xcassets in Resources */,
+				124696562C136F4500AAA0B8 /* simformsolutions.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124695F02C1343F700AAA0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124695FA2C1343F700AAA0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124696142C13442600AAA0B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124696152C13442600AAA0B8 /* Preview Assets.xcassets in Resources */,
+				124696162C13442600AAA0B8 /* Assets.xcassets in Resources */,
+				124696572C136F4500AAA0B8 /* simformsolutions.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1451AB7A5B8DFFDA93FDCE7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		28336BD4E93113C2313B038A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E4F6D973C0F691E95ADD6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C45602EF055345D66A28B26B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D255700739A96207726CE914 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D42300AA6991D52A7EAF71EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExampleMacOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		124695DE2C1343F500AAA0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124695E82C1343F500AAA0B8 /* ContentView.swift in Sources */,
+				124695E62C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */,
+				124696532C136E9700AAA0B8 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124695EE2C1343F700AAA0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124695F72C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124695F82C1343F700AAA0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124696012C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests.swift in Sources */,
+				124696032C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		124696102C13442600AAA0B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				124696112C13442600AAA0B8 /* ContentView.swift in Sources */,
+				124696122C13442600AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */,
+				124696542C136E9700AAA0B8 /* SplashScreenView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		124695F42C1343F700AAA0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124695E12C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */;
+			targetProxy = 124695F32C1343F700AAA0B8 /* PBXContainerItemProxy */;
+		};
+		124695FE2C1343F700AAA0B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 124695E12C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */;
+			targetProxy = 124695FD2C1343F700AAA0B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		124696042C1343F700AAA0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		124696052C1343F700AAA0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		124696072C1343F700AAA0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 425A89AF90B78A43825398FD /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SSSwiftUIGIFViewExample/Preview Content\"";
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		124696082C1343F700AAA0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8DDF0D15FCABDBD72D35E5B /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SSSwiftUIGIFViewExample/Preview Content\"";
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1246960A2C1343F700AAA0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47A57702FA462446D9ACAD0 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSSwiftUIGIFViewExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SSSwiftUIGIFViewExample";
+			};
+			name = Debug;
+		};
+		1246960B2C1343F700AAA0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18AF2A19B00B5E04AAB686D5 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SSSwiftUIGIFViewExample.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SSSwiftUIGIFViewExample";
+			};
+			name = Release;
+		};
+		1246960D2C1343F700AAA0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F12FE45137E504B477BF8B5 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSSwiftUIGIFViewExample;
+			};
+			name = Debug;
+		};
+		1246960E2C1343F700AAA0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 833612CAF379644CD60EC1FE /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SSSwiftUIGIFViewExample;
+			};
+			name = Release;
+		};
+		124696182C13442600AAA0B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09316F2DCBDD5E8DDA7670C3 /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SSSwiftUIGIFViewExample/Preview Content\"";
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		124696192C13442600AAA0B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5696615A04D7B8F8ED9E36EA /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SSSwiftUIGIFViewExample/Preview Content\"";
+				DEVELOPMENT_TEAM = C367XQY55B;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.SSSwiftUIGIFViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		124695DD2C1343F500AAA0B8 /* Build configuration list for PBXProject "SSSwiftUIGIFViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124696042C1343F700AAA0B8 /* Debug */,
+				124696052C1343F700AAA0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124696062C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124696072C1343F700AAA0B8 /* Debug */,
+				124696082C1343F700AAA0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124696092C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1246960A2C1343F700AAA0B8 /* Debug */,
+				1246960B2C1343F700AAA0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1246960C2C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1246960D2C1343F700AAA0B8 /* Debug */,
+				1246960E2C1343F700AAA0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		124696172C13442600AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleMacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				124696182C13442600AAA0B8 /* Debug */,
+				124696192C13442600AAA0B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 124695DA2C1343F500AAA0B8 /* Project object */;
+}
