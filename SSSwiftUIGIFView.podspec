@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-'SSSwiftUIGIFView is a very easy way to load any GIF in SwiftUI, User just need to call one function with gif name and its done.'
+'SSSwiftUIGIFView is a custom controller designed to help load GIFs in SwiftUI. It supports loading GIFs from remote URLs, is compatible with both iOS and macOS, and implements a caching mechanism to improve loading times and reduce data usage. Additionally, it provides both a default progress view and support for custom progress views while loading the GIF.'
                        DESC
 
   s.homepage         = 'https://github.com/simformsolutions/SSSwiftUIGIFView'
