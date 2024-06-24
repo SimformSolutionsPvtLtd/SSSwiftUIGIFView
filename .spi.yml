@@ -1,0 +1,6 @@
+version: 1
+builder:
+  configs:
+    - documentation_targets: [SSSwiftUIGIFView]
+    - platform: ios
+    - platform: macos
