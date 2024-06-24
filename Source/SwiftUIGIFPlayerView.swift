@@ -55,7 +55,11 @@ public struct SwiftUIGIFPlayerView<Placeholder: View>: View {
                 GIFPlayerView(gifData: gifData)
             } else {
                 if let isShowProgressView = isShowProgressView, isShowProgressView {
-                    ProgressView()
+                    HStack {
+                        Spacer()
+                        ProgressView()
+                        Spacer()
+                    }
                 } else {
                     if let placeholderView = placeholderView {
                         placeholderView()

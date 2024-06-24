@@ -9,6 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'SSSwiftUIGIFView'
   s.version          = '1.0.0'
+  s.platform         = :ios
+  s.platform         = :osx
   s.summary          = 'SSSwiftUIGIFView is a custom controller which helps to load GIF in SwiftUI.'
 
 # This description is used to generate tags and improve search results.
@@ -27,10 +29,9 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/simformsolutions/SSSwiftUIGIFView.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '14.0'
+  s.osx.deployment_target = '13.0'
   s.swift_version = '5.0'
-  s.platforms = {
-    "ios": "14.0"
-  }
+
 
   s.source_files = 'Source/**/*.swift'
 

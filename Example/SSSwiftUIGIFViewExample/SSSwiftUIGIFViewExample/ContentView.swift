@@ -1,9 +1,8 @@
 //
 //  ContentView.swift
-//  SSSwiftUIGIFView
+//  SSSwiftUIGIFViewExample
 //
-//  Created by Simform Solutions on 07/01/20.
-//  Copyright © 2020 Simform. All rights reserved.
+//  Created by Yagnik Bavishi on 07/06/24.
 //
 
 import SwiftUI
@@ -45,12 +44,13 @@ extension ContentView {
                 .foregroundColor(.gray)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        #if os(iOS)
         .background(Color(UIColor.systemBackground))
+        #elseif os(iOS)
+        .background(Color(nsColor: NSColor.windowBackgroundColor))
+        #endif
     }
 }
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
+#Preview {
+    ContentView()
 }
