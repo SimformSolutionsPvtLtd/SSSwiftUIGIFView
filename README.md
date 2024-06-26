@@ -21,30 +21,13 @@ SSSwiftUIGIFView is a custom controller designed to help load GIFs in SwiftUI. I
 - [x] Cross-platform compatibility (iOS & macOS)
 - [x] Custom and default progress view support
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Manually
-
-1. Add `GIFCache.swift`, `GIFImageViewModel.swift`, `GIFPlayerView.swift` and `SwiftUIGIFPlayerView.swift` to your project.
-2. Grab yourself a cold 🍺.
-
-[Swift Package Manager](https://swift.org/package-manager/)
-------------------
-When using Xcode 11 or later, you can install `SSSwiftUIGIFView` by going to your Project settings > `Swift Packages` and add the repository by providing the GitHub URL. Alternatively, you can go to `File` > `Add Package Dependencies...`
-
-         dependencies: [
-             .package(url: "https://github.com/SimformSolutionsPvtLtd/SSSwiftUIGIFView.git", from: "2.0.0")
-         ]
-
-
 ## Requirements
   - iOS 14.0+
   - MacOS 13.0+
   - Xcode 11+
 
 ## Installation
+ **CocoaPods**
 
 SSSwiftUIGIFView is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -52,7 +35,21 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SSSwiftUIGIFView'
 ```
-# Usage example
+
+**Swift Package Manager**
+
+When using Xcode 11 or later, you can install `SSSwiftUIGIFView` by going to your Project settings > `Swift Packages` and add the repository by providing the GitHub URL. Alternatively, you can go to `File` > `Add Package Dependencies...`
+
+         dependencies: [
+             .package(url: "https://github.com/SimformSolutionsPvtLtd/SSSwiftUIGIFView.git", from: "2.0.0")
+         ]
+         
+**Manually**
+
+1. Add `GIFCache.swift`, `GIFImageViewModel.swift`, `GIFPlayerView.swift` and `SwiftUIGIFPlayerView.swift` to your project.
+2. Grab yourself a cold 🍺.
+
+## Usage example
 -
     **Import framework**
 
@@ -87,15 +84,19 @@ pod 'SSSwiftUIGIFView'
 </p>
 <br> </br>
 
-## 🤝 How to Contribute
+## How to Contribute 🤝 
 
 Whether you're helping us fix bugs, improve the docs, or a feature request, we'd love to have you! :muscle:
-
 Check out our [**Contributing Guide**](CONTRIBUTING.md) for ideas on contributing.
 
 ## Find this example useful? ❤️
 
-Give a ⭐️ if this project helped you!
+Support it by joining [stargazers](https://github.com/SimformSolutionsPvtLtd/SSSwiftUIGIFView/stargazers) :star: for this repository.
+
+## Bugs and Feedback
+
+For bugs, feature feature requests, and discussion use [GitHub Issues](https://github.com/SimformSolutionsPvtLtd/SSSwiftUIGIFView/issues).
+
 
 ## Check out our other Libraries
 
