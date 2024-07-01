@@ -4,11 +4,11 @@
 
 # SSSwiftUIGIFView
 
+![Swift Package Index](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimformSolutionsPvtLtd%2FSSSwiftUIGIFView%2Fbadge%3Ftype%3Dswift-versions)
+![Swift Package Index](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimformSolutionsPvtLtd%2FSSSwiftUIGIFView%2Fbadge%3Ftype%3Dplatforms)
+![SPM Compatible-badge](https://img.shields.io/badge/Swift_Package_Manager-compatible-coolgreen)
 [![Version](https://img.shields.io/cocoapods/v/SSSwiftUIGIFView.svg?style=flat)](https://cocoapods.org/pods/SSSwiftUIGIFView)
 [![License](https://img.shields.io/cocoapods/l/SSSwiftUIGIFView.svg?style=flat)](https://cocoapods.org/pods/SSSwiftUIGIFView)
-[![Platform](https://img.shields.io/cocoapods/p/SSSwiftUIGIFView.svg?style=flat)](https://cocoapods.org/pods/SSSwiftUIGIFView)
-[![swiftUI](https://img.shields.io/badge/-swiftUI-blue)](https://developer.apple.com/documentation/swiftui)
-[![Swift Version][swift-image]][swift-url]
 [![PRs Welcome][PR-image]][PR-url]
 [![Twitter](https://img.shields.io/badge/Twitter-@simform-blue.svg?style=flat)](https://twitter.com/simform)
 
@@ -48,6 +48,10 @@ When using Xcode 11 or later, you can install `SSSwiftUIGIFView` by going to you
 
 1. Add `GIFCache.swift`, `GIFImageViewModel.swift`, `GIFPlayerView.swift` and `SwiftUIGIFPlayerView.swift` to your project.
 2. Grab yourself a cold 🍺.
+
+## Documentation
+
+[Documentation](https://swiftpackageindex.com/SimformSolutionsPvtLtd/SSSwiftUIGIFView/master/documentation/ssswiftuigifview) - Find the full API reference for more detailed documentation.
 
 ## Usage example
 -
@@ -111,3 +115,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [PR-url]:http://makeapullrequest.com
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
+[Swift Compatibility-badge]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimformSolutionsPvtLtd%2FSSSwiftUIGIFView%2Fbadge%3Ftype%3Dswift-versions
+[Platform Compatibility-badge]: https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimformSolutionsPvtLtd%2FSSSwiftUIGIFView%2Fbadge%3Ftype%3Dplatforms
