@@ -7,7 +7,7 @@ let package = Package(
     name: "SSSwiftUIGIFView",
     platforms: [
         .iOS(.v14),
-        .macOS(.v10_15)
+        .macOS(.v13)
     ],
     products: [
         .library(
