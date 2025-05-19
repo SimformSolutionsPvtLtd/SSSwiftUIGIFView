@@ -62,8 +62,4 @@ class GIFImageViewModel: ObservableObject {
         }
     }
 
-    deinit {
-        GIFCache.shared.clearCache()
-        cancellable?.cancel()
-    }
 }
