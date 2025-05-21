@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Demo View Controller-->
+        <scene sceneID="mL0-Xs-ADc">
+            <objects>
+                <viewController storyboardIdentifier="DemoViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="dKe-8I-en1" customClass="DemoViewController" customModule="SSSwiftUIGIFViewExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rT0-oV-81t">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Rz8-Nd-VGM">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" id="DnI-LI-wP4" customClass="TableViewCell" customModule="SSSwiftUIGIFViewExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="200.33332824707031"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DnI-LI-wP4" id="S5P-wD-OfO">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200.33332824707031"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boh-Y4-TFA" customClass="GIFPlayerContainerView">
+                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="200.33333333333334"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" priority="999" constant="200" id="SQR-9y-svn"/>
+                                                    </constraints>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="boh-Y4-TFA" secondAttribute="bottom" id="E42-8p-qyo"/>
+                                                <constraint firstItem="boh-Y4-TFA" firstAttribute="top" secondItem="S5P-wD-OfO" secondAttribute="top" id="H0n-s1-t9g"/>
+                                                <constraint firstItem="boh-Y4-TFA" firstAttribute="leading" secondItem="S5P-wD-OfO" secondAttribute="leading" id="bjl-XM-hZr"/>
+                                                <constraint firstAttribute="trailing" secondItem="boh-Y4-TFA" secondAttribute="trailing" id="y8y-lu-ngr"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="gifContainerView" destination="boh-Y4-TFA" id="NS1-lM-xTx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3DM-kT-Sqj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Rz8-Nd-VGM" firstAttribute="leading" secondItem="3DM-kT-Sqj" secondAttribute="leading" id="BaW-Vs-kIU"/>
+                            <constraint firstItem="Rz8-Nd-VGM" firstAttribute="top" secondItem="3DM-kT-Sqj" secondAttribute="top" id="LU1-e3-Mj8"/>
+                            <constraint firstItem="3DM-kT-Sqj" firstAttribute="trailing" secondItem="Rz8-Nd-VGM" secondAttribute="trailing" id="P1D-Cr-Kw4"/>
+                            <constraint firstItem="3DM-kT-Sqj" firstAttribute="bottom" secondItem="Rz8-Nd-VGM" secondAttribute="bottom" id="awr-x1-NuL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tblNavoContent" destination="Rz8-Nd-VGM" id="FkM-ay-mIY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2YC-yd-fEN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2879" y="38"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

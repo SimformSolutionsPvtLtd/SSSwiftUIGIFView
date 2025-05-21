@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C81BE2FBA36AB77830BA441 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC29AE2295CD8C0C5DC68C3F /* libPods-SSSwiftUIGIFViewExampleMacOS.a */; };
+		1207C41B2DB2283C00AF5708 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1207C41A2DB2283C00AF5708 /* Storyboard.storyboard */; };
+		1207C41C2DB2283C00AF5708 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1207C41A2DB2283C00AF5708 /* Storyboard.storyboard */; };
+		1230C6302D0EAF040057FF4F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C62F2D0EAF040057FF4F /* TableViewCell.swift */; };
+		1230C6312D0EAF040057FF4F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C62F2D0EAF040057FF4F /* TableViewCell.swift */; };
 		124695E62C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */; };
 		124695E82C1343F500AAA0B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E72C1343F500AAA0B8 /* ContentView.swift */; };
 		124695EA2C1343F700AAA0B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 124695E92C1343F700AAA0B8 /* Assets.xcassets */; };
@@ -22,10 +27,11 @@
 		124696542C136E9700AAA0B8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124696522C136E9700AAA0B8 /* SplashScreenView.swift */; };
 		124696562C136F4500AAA0B8 /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 124696552C136F4500AAA0B8 /* simformsolutions.gif */; };
 		124696572C136F4500AAA0B8 /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 124696552C136F4500AAA0B8 /* simformsolutions.gif */; };
-		7C281D2A6F72EBD530C08E14 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B06B4EA4C4771ECA2A4375 /* libPods-SSSwiftUIGIFViewExampleMacOS.a */; };
-		A7F6D4CA072CA8E41D5ECABD /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08DC64E2DC6B41819B52B8F2 /* Pods_SSSwiftUIGIFViewExample.framework */; };
-		C97928FB6531DCB55ECC4C17 /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D70E627C32DBCB99C57A2A8C /* Pods_SSSwiftUIGIFViewExampleTests.framework */; };
-		FD56F62B7249DE19A2E0DEDF /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49987652F4D8396F2B5618AB /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */; };
+		12830A7B2DDB00BD0005A84C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12830A7A2DDB00BD0005A84C /* DemoViewController.swift */; };
+		12830A7C2DDB00BD0005A84C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12830A7A2DDB00BD0005A84C /* DemoViewController.swift */; };
+		33F1910D512B79345FDA77AA /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC472E31176EDD3D17EE15A /* Pods_SSSwiftUIGIFViewExample.framework */; };
+		7155DC571489A58A5C81D4E7 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B6275D79807D97E0ACE73 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */; };
+		BB7A75BF4DB598E29759F2BB /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FF58D93C4A9A6CB80C5E33 /* Pods_SSSwiftUIGIFViewExampleTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +52,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08DC64E2DC6B41819B52B8F2 /* Pods_SSSwiftUIGIFViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		09316F2DCBDD5E8DDA7670C3 /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleMacOS/Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		0F5B6275D79807D97E0ACE73 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1207C41A2DB2283C00AF5708 /* Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		1230C62F2D0EAF040057FF4F /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		124695E22C1343F500AAA0B8 /* SSSwiftUIGIFViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSwiftUIGIFViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSwiftUIGIFViewExampleApp.swift; sourceTree = "<group>"; };
 		124695E72C1343F500AAA0B8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,16 +68,18 @@
 		1246961A2C13442600AAA0B8 /* SSSwiftUIGIFViewExampleMacOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSSwiftUIGIFViewExampleMacOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		124696522C136E9700AAA0B8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		124696552C136F4500AAA0B8 /* simformsolutions.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simformsolutions.gif; sourceTree = "<group>"; };
-		18AF2A19B00B5E04AAB686D5 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
-		425A89AF90B78A43825398FD /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample.debug.xcconfig"; sourceTree = "<group>"; };
-		49987652F4D8396F2B5618AB /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F12FE45137E504B477BF8B5 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		5696615A04D7B8F8ED9E36EA /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleMacOS/Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig"; sourceTree = "<group>"; };
-		833612CAF379644CD60EC1FE /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		B47A57702FA462446D9ACAD0 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
-		C3B06B4EA4C4771ECA2A4375 /* libPods-SSSwiftUIGIFViewExampleMacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSSwiftUIGIFViewExampleMacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D70E627C32DBCB99C57A2A8C /* Pods_SSSwiftUIGIFViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D8DDF0D15FCABDBD72D35E5B /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		12830A7A2DDB00BD0005A84C /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		1DACB4BD9EFE52E14E0C44C3 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BC472E31176EDD3D17EE15A /* Pods_SSSwiftUIGIFViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FF58D93C4A9A6CB80C5E33 /* Pods_SSSwiftUIGIFViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65C64EDFDB4D339F38B85C5D /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleMacOS/Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7538912DEDA23D5105D6263E /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		80D33F4FB4B412C4644FD0C2 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A4362606C33E6829EBD4965 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		C629687AB6C673DC79517859 /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C77A693D6B16B358698D2676 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EC29AE2295CD8C0C5DC68C3F /* libPods-SSSwiftUIGIFViewExampleMacOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SSSwiftUIGIFViewExampleMacOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF4DE6C916DF8203320F5AC7 /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleMacOS/Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7F6D4CA072CA8E41D5ECABD /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */,
+				33F1910D512B79345FDA77AA /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C97928FB6531DCB55ECC4C17 /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */,
+				BB7A75BF4DB598E29759F2BB /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD56F62B7249DE19A2E0DEDF /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */,
+				7155DC571489A58A5C81D4E7 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,7 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C281D2A6F72EBD530C08E14 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */,
+				0C81BE2FBA36AB77830BA441 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,7 +126,7 @@
 				124695FF2C1343F700AAA0B8 /* SSSwiftUIGIFViewExampleUITests */,
 				124695E32C1343F500AAA0B8 /* Products */,
 				7929A1DF6188C593E1AAB0AB /* Pods */,
-				C9C7459E77F46B10242A92AD /* Frameworks */,
+				8CA8AC144540A3371B86A7C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,12 +144,15 @@
 		124695E42C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				12830A7A2DDB00BD0005A84C /* DemoViewController.swift */,
 				124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */,
 				124695E72C1343F500AAA0B8 /* ContentView.swift */,
 				124696522C136E9700AAA0B8 /* SplashScreenView.swift */,
 				124696552C136F4500AAA0B8 /* simformsolutions.gif */,
 				124695E92C1343F700AAA0B8 /* Assets.xcassets */,
 				124695EB2C1343F700AAA0B8 /* Preview Content */,
+				1230C62F2D0EAF040057FF4F /* TableViewCell.swift */,
+				1207C41A2DB2283C00AF5708 /* Storyboard.storyboard */,
 			);
 			path = SSSwiftUIGIFViewExample;
 			sourceTree = "<group>";
@@ -173,25 +185,25 @@
 		7929A1DF6188C593E1AAB0AB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				425A89AF90B78A43825398FD /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */,
-				D8DDF0D15FCABDBD72D35E5B /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */,
-				4F12FE45137E504B477BF8B5 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */,
-				833612CAF379644CD60EC1FE /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */,
-				B47A57702FA462446D9ACAD0 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */,
-				18AF2A19B00B5E04AAB686D5 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */,
-				09316F2DCBDD5E8DDA7670C3 /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */,
-				5696615A04D7B8F8ED9E36EA /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */,
+				C629687AB6C673DC79517859 /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */,
+				7538912DEDA23D5105D6263E /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */,
+				80D33F4FB4B412C4644FD0C2 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */,
+				C77A693D6B16B358698D2676 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */,
+				65C64EDFDB4D339F38B85C5D /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */,
+				EF4DE6C916DF8203320F5AC7 /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */,
+				1DACB4BD9EFE52E14E0C44C3 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */,
+				8A4362606C33E6829EBD4965 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		C9C7459E77F46B10242A92AD /* Frameworks */ = {
+		8CA8AC144540A3371B86A7C3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				08DC64E2DC6B41819B52B8F2 /* Pods_SSSwiftUIGIFViewExample.framework */,
-				49987652F4D8396F2B5618AB /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */,
-				D70E627C32DBCB99C57A2A8C /* Pods_SSSwiftUIGIFViewExampleTests.framework */,
-				C3B06B4EA4C4771ECA2A4375 /* libPods-SSSwiftUIGIFViewExampleMacOS.a */,
+				2BC472E31176EDD3D17EE15A /* Pods_SSSwiftUIGIFViewExample.framework */,
+				0F5B6275D79807D97E0ACE73 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */,
+				EC29AE2295CD8C0C5DC68C3F /* libPods-SSSwiftUIGIFViewExampleMacOS.a */,
+				46FF58D93C4A9A6CB80C5E33 /* Pods_SSSwiftUIGIFViewExampleTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -203,11 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 124696062C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExample" */;
 			buildPhases = (
-				C45602EF055345D66A28B26B /* [CP] Check Pods Manifest.lock */,
+				E2722C16168ED06073C10204 /* [CP] Check Pods Manifest.lock */,
 				124695DE2C1343F500AAA0B8 /* Sources */,
 				124695DF2C1343F500AAA0B8 /* Frameworks */,
 				124695E02C1343F500AAA0B8 /* Resources */,
-				28336BD4E93113C2313B038A /* [CP] Embed Pods Frameworks */,
+				58B05EA78F44ADEF49F71D9E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 124696092C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleTests" */;
 			buildPhases = (
-				D255700739A96207726CE914 /* [CP] Check Pods Manifest.lock */,
+				9AE33E7BAAF6417002B0C0C8 /* [CP] Check Pods Manifest.lock */,
 				124695EE2C1343F700AAA0B8 /* Sources */,
 				124695EF2C1343F700AAA0B8 /* Frameworks */,
 				124695F02C1343F700AAA0B8 /* Resources */,
@@ -241,11 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1246960C2C1343F700AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleUITests" */;
 			buildPhases = (
-				1451AB7A5B8DFFDA93FDCE7D /* [CP] Check Pods Manifest.lock */,
+				630027EB35058CD6181EA80C /* [CP] Check Pods Manifest.lock */,
 				124695F82C1343F700AAA0B8 /* Sources */,
 				124695F92C1343F700AAA0B8 /* Frameworks */,
 				124695FA2C1343F700AAA0B8 /* Resources */,
-				68E4F6D973C0F691E95ADD6E /* [CP] Embed Pods Frameworks */,
+				41300EA4C163FD0795B2F5C0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,7 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 124696172C13442600AAA0B8 /* Build configuration list for PBXNativeTarget "SSSwiftUIGIFViewExampleMacOS" */;
 			buildPhases = (
-				D42300AA6991D52A7EAF71EC /* [CP] Check Pods Manifest.lock */,
+				6C763316D0FC13132983B3D6 /* [CP] Check Pods Manifest.lock */,
 				124696102C13442600AAA0B8 /* Sources */,
 				124696132C13442600AAA0B8 /* Frameworks */,
 				124696142C13442600AAA0B8 /* Resources */,
@@ -325,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				124695ED2C1343F700AAA0B8 /* Preview Assets.xcassets in Resources */,
+				1207C41C2DB2283C00AF5708 /* Storyboard.storyboard in Resources */,
 				124695EA2C1343F700AAA0B8 /* Assets.xcassets in Resources */,
 				124696562C136F4500AAA0B8 /* simformsolutions.gif in Resources */,
 			);
@@ -349,6 +362,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				124696152C13442600AAA0B8 /* Preview Assets.xcassets in Resources */,
+				1207C41B2DB2283C00AF5708 /* Storyboard.storyboard in Resources */,
 				124696162C13442600AAA0B8 /* Assets.xcassets in Resources */,
 				124696572C136F4500AAA0B8 /* simformsolutions.gif in Resources */,
 			);
@@ -357,7 +371,41 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1451AB7A5B8DFFDA93FDCE7D /* [CP] Check Pods Manifest.lock */ = {
+		41300EA4C163FD0795B2F5C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58B05EA78F44ADEF49F71D9E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		630027EB35058CD6181EA80C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,85 +427,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		28336BD4E93113C2313B038A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample/Pods-SSSwiftUIGIFViewExample-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		68E4F6D973C0F691E95ADD6E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests/Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		C45602EF055345D66A28B26B /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExample-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D255700739A96207726CE914 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExampleTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D42300AA6991D52A7EAF71EC /* [CP] Check Pods Manifest.lock */ = {
+		6C763316D0FC13132983B3D6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -479,6 +449,50 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9AE33E7BAAF6417002B0C0C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2722C16168ED06073C10204 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSSwiftUIGIFViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -486,7 +500,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1230C6302D0EAF040057FF4F /* TableViewCell.swift in Sources */,
 				124695E82C1343F500AAA0B8 /* ContentView.swift in Sources */,
+				12830A7C2DDB00BD0005A84C /* DemoViewController.swift in Sources */,
 				124695E62C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */,
 				124696532C136E9700AAA0B8 /* SplashScreenView.swift in Sources */,
 			);
@@ -513,7 +529,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1230C6312D0EAF040057FF4F /* TableViewCell.swift in Sources */,
 				124696112C13442600AAA0B8 /* ContentView.swift in Sources */,
+				12830A7B2DDB00BD0005A84C /* DemoViewController.swift in Sources */,
 				124696122C13442600AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */,
 				124696542C136E9700AAA0B8 /* SplashScreenView.swift in Sources */,
 			);
@@ -656,7 +674,7 @@
 		};
 		124696072C1343F700AAA0B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 425A89AF90B78A43825398FD /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */;
+			baseConfigurationReference = C629687AB6C673DC79517859 /* Pods-SSSwiftUIGIFViewExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -687,7 +705,7 @@
 		};
 		124696082C1343F700AAA0B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D8DDF0D15FCABDBD72D35E5B /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */;
+			baseConfigurationReference = 7538912DEDA23D5105D6263E /* Pods-SSSwiftUIGIFViewExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -718,7 +736,7 @@
 		};
 		1246960A2C1343F700AAA0B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B47A57702FA462446D9ACAD0 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */;
+			baseConfigurationReference = 1DACB4BD9EFE52E14E0C44C3 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -740,7 +758,7 @@
 		};
 		1246960B2C1343F700AAA0B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18AF2A19B00B5E04AAB686D5 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */;
+			baseConfigurationReference = 8A4362606C33E6829EBD4965 /* Pods-SSSwiftUIGIFViewExampleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -762,7 +780,7 @@
 		};
 		1246960D2C1343F700AAA0B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4F12FE45137E504B477BF8B5 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */;
+			baseConfigurationReference = 80D33F4FB4B412C4644FD0C2 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -782,7 +800,7 @@
 		};
 		1246960E2C1343F700AAA0B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 833612CAF379644CD60EC1FE /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */;
+			baseConfigurationReference = C77A693D6B16B358698D2676 /* Pods-SSSwiftUIGIFViewExample-SSSwiftUIGIFViewExampleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -802,7 +820,7 @@
 		};
 		124696182C13442600AAA0B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09316F2DCBDD5E8DDA7670C3 /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */;
+			baseConfigurationReference = 65C64EDFDB4D339F38B85C5D /* Pods-SSSwiftUIGIFViewExampleMacOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -839,7 +857,7 @@
 		};
 		124696192C13442600AAA0B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5696615A04D7B8F8ED9E36EA /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */;
+			baseConfigurationReference = EF4DE6C916DF8203320F5AC7 /* Pods-SSSwiftUIGIFViewExampleMacOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
