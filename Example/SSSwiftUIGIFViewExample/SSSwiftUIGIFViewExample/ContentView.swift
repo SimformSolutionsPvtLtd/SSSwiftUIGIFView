@@ -9,6 +9,7 @@ import SwiftUI
 import SSSwiftUIGIFView
 
 struct ContentView: View {
+    // No need for dismiss action as we're using the navigation toolbar now
     
     let gifURLs: [String] = [
         "https://media.giphy.com/media/3ohze3Etu7mUfkHkI0/giphy.gif",
@@ -37,20 +38,31 @@ struct ContentView: View {
 
     
             var body: some View {
-                List(gifURLs, id: \.self) { url in
-
-                    SwiftUIGIFPlayerView(gifURL: URL(string:url), isShowProgressView: true)
-                        .aspectRatio(contentMode: .fit)// Adjust the height as needed
-                        .frame(width: 300, height: 250)
+                #if os(iOS)
+                VStack {                    
+                    List(gifURLs, id: \.self) { url in
+                        SwiftUIGIFPlayerView(gifURL: URL(string:url), isShowProgressView: true)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 300, height: 250)
+                    }
                 }
+                #else
+                // Enhanced layout for macOS
+                VStack {
+                    List(gifURLs, id: \.self) { url in
+                        SwiftUIGIFPlayerView(gifURL: URL(string:url), isShowProgressView: true)
+                            .aspectRatio(contentMode: .fit)
+                            .frame(width: 300, height: 250)
+                    }
+                    .frame(minWidth: 500, minHeight: 400)
+                }
+                #endif
                 
 //                List(gifNames.indices, id: \.self) { index in
 //                            SwiftUIGIFPlayerView(gifName: gifNames[index], isShowProgressView: false)
 //                                .aspectRatio(contentMode: .fit)
 //                                .frame(width: 300, height: 250)
 //                        }
-                
-                .navigationBarBackButtonHidden(true)
 
             }
 

@@ -5,6 +5,7 @@
 //  Created by Yagnik Bavishi on 19/05/25.
 //
 
+#if os(iOS)
 import UIKit
 import SwiftUI
 
@@ -42,3 +43,61 @@ public class GIFPlayerContainerView: UIView {
         hostingController = controller
     }
 }
+#endif
+
+#if os(macOS)
+import AppKit
+import SwiftUI
+
+@objc(GIFPlayerContainerView)
+public class GIFPlayerContainerView: NSView {
+    private var hostingController: NSHostingController<AnyView>?
+    
+    override init(frame frameRect: NSRect) {
+        super.init(frame: frameRect)
+        setupView()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
+        setupView()
+    }
+    
+    private func setupView() {
+        wantsLayer = true
+        layer?.backgroundColor = NSColor.clear.cgColor
+    }
+
+    public func loadGif(from urlString: String, isShowProgressView: Bool = false) {
+        guard let url = URL(string: urlString) else { return }
+        let gifView = SwiftUIGIFPlayerView(gifURL: url, isShowProgressView: isShowProgressView)
+        embedSwiftUIView(AnyView(gifView))
+    }
+
+    public func loadGif(named name: String, isShowProgressView: Bool = false) {
+        let gifView = SwiftUIGIFPlayerView(gifName: name, isShowProgressView: isShowProgressView)
+        embedSwiftUIView(AnyView(gifView))
+    }
+
+    private func embedSwiftUIView(_ swiftUIView: AnyView) {
+        hostingController?.view.removeFromSuperview()
+        hostingController = nil
+
+        let controller = NSHostingController(rootView: swiftUIView)
+        controller.view.translatesAutoresizingMaskIntoConstraints = false
+        controller.view.wantsLayer = true
+        controller.view.layer?.backgroundColor = NSColor.clear.cgColor
+
+        addSubview(controller.view)
+
+        NSLayoutConstraint.activate([
+            controller.view.topAnchor.constraint(equalTo: topAnchor),
+            controller.view.bottomAnchor.constraint(equalTo: bottomAnchor),
+            controller.view.leadingAnchor.constraint(equalTo: leadingAnchor),
+            controller.view.trailingAnchor.constraint(equalTo: trailingAnchor)
+        ])
+
+        hostingController = controller
+    }
+}
+#endif

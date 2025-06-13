@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0C81BE2FBA36AB77830BA441 /* libPods-SSSwiftUIGIFViewExampleMacOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC29AE2295CD8C0C5DC68C3F /* libPods-SSSwiftUIGIFViewExampleMacOS.a */; };
-		1207C41B2DB2283C00AF5708 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1207C41A2DB2283C00AF5708 /* Storyboard.storyboard */; };
 		1207C41C2DB2283C00AF5708 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1207C41A2DB2283C00AF5708 /* Storyboard.storyboard */; };
+		120DBC2A2DDE365C00392390 /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12830A7A2DDB00BD0005A84C /* DemoViewController.swift */; };
 		1230C6302D0EAF040057FF4F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C62F2D0EAF040057FF4F /* TableViewCell.swift */; };
 		1230C6312D0EAF040057FF4F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1230C62F2D0EAF040057FF4F /* TableViewCell.swift */; };
 		124695E62C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */; };
@@ -27,8 +27,9 @@
 		124696542C136E9700AAA0B8 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 124696522C136E9700AAA0B8 /* SplashScreenView.swift */; };
 		124696562C136F4500AAA0B8 /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 124696552C136F4500AAA0B8 /* simformsolutions.gif */; };
 		124696572C136F4500AAA0B8 /* simformsolutions.gif in Resources */ = {isa = PBXBuildFile; fileRef = 124696552C136F4500AAA0B8 /* simformsolutions.gif */; };
-		12830A7B2DDB00BD0005A84C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12830A7A2DDB00BD0005A84C /* DemoViewController.swift */; };
 		12830A7C2DDB00BD0005A84C /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12830A7A2DDB00BD0005A84C /* DemoViewController.swift */; };
+		12ED72F62DE18552000B7AFC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED72F52DE18552000B7AFC /* TableViewController.swift */; };
+		12ED72F82DE18637000B7AFC /* MacOSHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ED72F72DE18637000B7AFC /* MacOSHelper.swift */; };
 		33F1910D512B79345FDA77AA /* Pods_SSSwiftUIGIFViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC472E31176EDD3D17EE15A /* Pods_SSSwiftUIGIFViewExample.framework */; };
 		7155DC571489A58A5C81D4E7 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5B6275D79807D97E0ACE73 /* Pods_SSSwiftUIGIFViewExample_SSSwiftUIGIFViewExampleUITests.framework */; };
 		BB7A75BF4DB598E29759F2BB /* Pods_SSSwiftUIGIFViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46FF58D93C4A9A6CB80C5E33 /* Pods_SSSwiftUIGIFViewExampleTests.framework */; };
@@ -69,6 +70,8 @@
 		124696522C136E9700AAA0B8 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		124696552C136F4500AAA0B8 /* simformsolutions.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = simformsolutions.gif; sourceTree = "<group>"; };
 		12830A7A2DDB00BD0005A84C /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
+		12ED72F52DE18552000B7AFC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		12ED72F72DE18637000B7AFC /* MacOSHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacOSHelper.swift; sourceTree = "<group>"; };
 		1DACB4BD9EFE52E14E0C44C3 /* Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; path = "Target Support Files/Pods-SSSwiftUIGIFViewExampleTests/Pods-SSSwiftUIGIFViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2BC472E31176EDD3D17EE15A /* Pods_SSSwiftUIGIFViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		46FF58D93C4A9A6CB80C5E33 /* Pods_SSSwiftUIGIFViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSSwiftUIGIFViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,6 +147,8 @@
 		124695E42C1343F500AAA0B8 /* SSSwiftUIGIFViewExample */ = {
 			isa = PBXGroup;
 			children = (
+				12ED72F72DE18637000B7AFC /* MacOSHelper.swift */,
+				12ED72F52DE18552000B7AFC /* TableViewController.swift */,
 				12830A7A2DDB00BD0005A84C /* DemoViewController.swift */,
 				124695E52C1343F500AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift */,
 				124695E72C1343F500AAA0B8 /* ContentView.swift */,
@@ -362,7 +367,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				124696152C13442600AAA0B8 /* Preview Assets.xcassets in Resources */,
-				1207C41B2DB2283C00AF5708 /* Storyboard.storyboard in Resources */,
 				124696162C13442600AAA0B8 /* Assets.xcassets in Resources */,
 				124696572C136F4500AAA0B8 /* simformsolutions.gif in Resources */,
 			);
@@ -529,11 +533,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12ED72F82DE18637000B7AFC /* MacOSHelper.swift in Sources */,
 				1230C6312D0EAF040057FF4F /* TableViewCell.swift in Sources */,
+				12ED72F62DE18552000B7AFC /* TableViewController.swift in Sources */,
 				124696112C13442600AAA0B8 /* ContentView.swift in Sources */,
-				12830A7B2DDB00BD0005A84C /* DemoViewController.swift in Sources */,
 				124696122C13442600AAA0B8 /* SSSwiftUIGIFViewExampleApp.swift in Sources */,
 				124696542C136E9700AAA0B8 /* SplashScreenView.swift in Sources */,
+				120DBC2A2DDE365C00392390 /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

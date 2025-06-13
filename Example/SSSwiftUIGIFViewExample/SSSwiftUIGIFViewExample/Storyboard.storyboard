@@ -17,29 +17,29 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Rz8-Nd-VGM">
-                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <rect key="frame" x="0.0" y="109" width="393" height="709"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="TableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" id="DnI-LI-wP4" customClass="TableViewCell" customModule="SSSwiftUIGIFViewExample" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="50" width="393" height="200.33332824707031"/>
+                                    <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" restorationIdentifier="TableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TableViewCell" id="DnI-LI-wP4" customClass="TableViewCell" customModule="SSSwiftUIGIFViewExample" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="340.33334350585938"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="DnI-LI-wP4" id="S5P-wD-OfO">
-                                            <rect key="frame" x="0.0" y="0.0" width="393" height="200.33332824707031"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="340.33334350585938"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="boh-Y4-TFA" customClass="GIFPlayerContainerView">
-                                                    <rect key="frame" x="0.0" y="0.0" width="393" height="200.33333333333334"/>
+                                                <view contentMode="left" translatesAutoresizingMaskIntoConstraints="NO" id="boh-Y4-TFA" customClass="GIFPlayerContainerView">
+                                                    <rect key="frame" x="20" y="20" width="300" height="300.33333333333331"/>
                                                     <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" priority="999" constant="200" id="SQR-9y-svn"/>
+                                                        <constraint firstAttribute="width" constant="300" id="4Uz-e3-fiW"/>
+                                                        <constraint firstAttribute="height" constant="300" id="SQR-9y-svn"/>
                                                     </constraints>
                                                 </view>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstAttribute="bottom" secondItem="boh-Y4-TFA" secondAttribute="bottom" id="E42-8p-qyo"/>
-                                                <constraint firstItem="boh-Y4-TFA" firstAttribute="top" secondItem="S5P-wD-OfO" secondAttribute="top" id="H0n-s1-t9g"/>
-                                                <constraint firstItem="boh-Y4-TFA" firstAttribute="leading" secondItem="S5P-wD-OfO" secondAttribute="leading" id="bjl-XM-hZr"/>
-                                                <constraint firstAttribute="trailing" secondItem="boh-Y4-TFA" secondAttribute="trailing" id="y8y-lu-ngr"/>
+                                                <constraint firstAttribute="bottom" secondItem="boh-Y4-TFA" secondAttribute="bottom" constant="20" id="E42-8p-qyo"/>
+                                                <constraint firstItem="boh-Y4-TFA" firstAttribute="top" secondItem="S5P-wD-OfO" secondAttribute="top" constant="20" id="H0n-s1-t9g"/>
+                                                <constraint firstItem="boh-Y4-TFA" firstAttribute="leading" secondItem="S5P-wD-OfO" secondAttribute="leading" constant="20" id="UuR-0V-dgw"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -53,13 +53,13 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Rz8-Nd-VGM" firstAttribute="leading" secondItem="3DM-kT-Sqj" secondAttribute="leading" id="BaW-Vs-kIU"/>
-                            <constraint firstItem="Rz8-Nd-VGM" firstAttribute="top" secondItem="3DM-kT-Sqj" secondAttribute="top" id="LU1-e3-Mj8"/>
+                            <constraint firstItem="Rz8-Nd-VGM" firstAttribute="top" secondItem="3DM-kT-Sqj" secondAttribute="top" constant="50" id="LU1-e3-Mj8"/>
                             <constraint firstItem="3DM-kT-Sqj" firstAttribute="trailing" secondItem="Rz8-Nd-VGM" secondAttribute="trailing" id="P1D-Cr-Kw4"/>
                             <constraint firstItem="3DM-kT-Sqj" firstAttribute="bottom" secondItem="Rz8-Nd-VGM" secondAttribute="bottom" id="awr-x1-NuL"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="tblNavoContent" destination="Rz8-Nd-VGM" id="FkM-ay-mIY"/>
+                        <outlet property="tableView" destination="Rz8-Nd-VGM" id="FkM-ay-mIY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2YC-yd-fEN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
